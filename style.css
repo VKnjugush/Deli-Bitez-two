@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.hero {
+    background-image: url('Images/wallhaven-0p56yj_1920x1080.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(148, 42, 42);
+    padding-bottom: 30px;
+}
+
+.hero-content h1 {
+    background-color: linear-gradient(to right, #cd2020 , #e9a46e );
+
+    
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hero a {
+    font-size: 1.3rem;
+    font-weight: 500;
+    /* position:absolute ; */
+    background-color: #feb47b;
+    border-color: #d45a3c;
+    box-shadow: inset 0 0 5px #d45a3c, 0 0 5px #d45a3c;
+    display: inline-block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    bottom: 150px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #d45a3c, ;
+}
+.menu-item {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #e9d2b484;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer i{
+    padding:5px 10px;
+    font-size: 1.2rem;
+    color: #000000;
+}
